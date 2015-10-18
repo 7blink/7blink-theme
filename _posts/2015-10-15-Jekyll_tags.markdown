@@ -10,6 +10,7 @@ tags:
 - tags
 - html
 - javascript
+comments: true
 ---
 I wanted to write a quick post to everyone about how to add tags to your jekyll blog.  A longer post will be coming as soon as the whole template is complete, but for now I will just give a quick explanation as to what Jekyll is.  In short, Jekyll is a blogging platform that creates static HTML files from simple Markdown text files.  Similar to other blogging platforms such as Wordpress, but different in that all the pages are static HTML instead of a dynamic PHP like Wordpress.  With static webpages, you don't need as powerful of a server to host your website.  In fact, some places will even host it for free up to a certain size limit.  Did you know that this blog is being hosted for free on github?  It is.  Checkitout at [github.com](https://github.com/7blink/blog)
 

@@ -9,6 +9,7 @@ tags:
 - html
 - javascript
 - games
+comments: true
 ---
 ![Game Image](/images/Post4-1.png)This is a small platform game I made about a year ago.  The object is to move the little green guy and have him jump on the enemies.  It was built using free images from [open game art](http://opengameart.org/) and built on the Quintus javascript framework.  You should totally go check out their website [http://www.html5quintus.com/](http://www.html5quintus.com/).
 

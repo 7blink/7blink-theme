@@ -5,9 +5,10 @@ email: #
 description: > # this means to ignore newlines until "baseurl:"
   A simple blog for my current programming projects.  Python, Django, Java, Javascript
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://blog.7blink.com" # the base hostname & protocol for your site
 twitter_username: #
 github_username:  7blink
+disqus: 7blink
 
 # Build settings
 markdown: redcarpet
