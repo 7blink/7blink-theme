@@ -28,3 +28,10 @@ navbar:
   categories: true
   tags: true
   about: true
+
+rename_navbar:
+  home: home
+  archive: archive
+  category: programming languages
+  tags: tags
+  about: about

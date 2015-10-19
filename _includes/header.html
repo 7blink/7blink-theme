@@ -8,24 +8,24 @@
 			{% if page.path == "index.html" %}
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/">home</a>
+					<a href="{{ site.baseurl }}/">{{site.rename_navbar.home}}</a>
 				</li>
 			</span>
 			{% else %}
 				<li>
-					<a href="{{ site.baseurl }}/">home</a>
+					<a href="{{ site.baseurl }}/">{{site.rename_navbar.home}}</a>
 				</li>
 			{% endif %}
 			{% if site.navbar.archive == true %}
 			{% if page.path == "archive.html" %}
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/archive">archive</a>
+					<a href="{{ site.baseurl }}/archive">{{site.rename_navbar.archive}}</a>
 				</li>
 			</span>
 			{% else %}
 				<li>
-					<a href="{{ site.baseurl }}/archive">archive</a>
+					<a href="{{ site.baseurl }}/archive">{{site.rename_navbar.archive}}</a>
 				</li>
 			{% endif %}
 			{% endif %}
@@ -33,12 +33,12 @@
 			{% if page.path == "category.html" %}
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/category">programming languages</a>
+					<a href="{{ site.baseurl }}/category">{{site.rename_navbar.category}}</a>
 				</li>
 			</span>
 			{% else %}
 				<li>
-					<a href="{{ site.baseurl }}/category">programming languages</a>
+					<a href="{{ site.baseurl }}/category">{{site.rename_navbar.category}}</a>
 				</li>
 			{% endif %}
 			{% endif %}
@@ -46,12 +46,12 @@
 			{% if page.path == "tags.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/tags">tags</a>
+					<a href="{{ site.baseurl }}/tags">{{site.rename_navbar.tags}}</a>
 				</li>
 			</span>
 			{% else %}
 				<li>
-					<a href="{{ site.baseurl }}/tags">tags</a>
+					<a href="{{ site.baseurl }}/tags">{{site.rename_navbar.tags}}</a>
 				</li>
 			{% endif %}
 			{% endif %}
@@ -59,12 +59,12 @@
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
-					<a href="{{ site.baseurl }}/about">about</a>
+					<a href="{{ site.baseurl }}/about">{{site.rename_navbar.about}}</a>
 				</li>
 			</span>
 			{% else %}
 				<li>
-					<a href="{{ site.baseurl }}/about">about</a>
+					<a href="{{ site.baseurl }}/about">{{site.rename_navbar.about}}</a>
 				</li>
 			{% endif %}
 			{% endif %}
