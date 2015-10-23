@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll - How to add Tags"
+title:  "Jekyll - Tags without plugins"
 date:   2015-10-15 17:31:00
 categories: HTML Javascript
 permalink: Jekyll_tags
