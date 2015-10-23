@@ -8,8 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.7blink.com" # the base hostname & protocol for your site
 
 logo: /images/logo.png
-logo-height: # set if image is too small.  eg 300px
-logo-maxheight: # set if image is too big.  eg 100px
+logo-width: # used to set width of logo.  eg 750
 
 twitter_username: #
 github_username:  7blink

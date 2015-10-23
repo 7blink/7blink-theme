@@ -14,6 +14,7 @@ title: Latest News
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
 
 		<div class="content">
+      {% if post.image %} <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none;"> <img src="{{post.image}}" {% if post.img-width %}style="width:{{post.img-width}}px" {% endif %}alt="{{ post.title }}"> </a>{% endif %}
 		{{ post.excerpt }}
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
     <br>
