@@ -30,6 +30,7 @@ sass:
 navbar:
   archive: true
   categories: true
+  store: true
   tags: true
   about: true
 
@@ -37,5 +38,6 @@ rename_navbar:
   home: home
   archive: archive
   category: programming languages
+  store: store
   tags: tags
   about: about
