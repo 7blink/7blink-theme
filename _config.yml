@@ -30,7 +30,7 @@ sass:
 navbar:
   archive: true
   categories: true
-  store: true
+  store: false
   tags: true
   about: true
 
