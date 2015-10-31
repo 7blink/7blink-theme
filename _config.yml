@@ -41,3 +41,6 @@ rename_navbar:
   store: store
   tags: tags
   about: about
+
+additional_pages:
+  - Feedback

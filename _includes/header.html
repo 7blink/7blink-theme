@@ -42,6 +42,23 @@
 				</li>
 			{% endif %}
 			{% endif %}
+
+			{% if site.additional_pages != null %}
+			{% for stuffs in site.additional_pages %}{% assign stuff = stuffs | split:',' ' ' | sort %}
+			{% if page.path == stuff".md" %}
+			<span class="title">
+				<li>
+					<a href="{{ site.baseurl }}/{{ stuff }}">{{ stuff }}</a>
+				</li>
+			</span>
+			{% else %}
+				<li>
+					<a href="{{ site.baseurl }}/{{ stuff }}">{{ stuff }}</a>
+				</li>
+			{% endif %}
+			{% endfor %}
+			{% endif %}
+
 			{% if site.navbar.store == true %}
 			{% if page.path == "store.md" %}
 			<span class="title">
