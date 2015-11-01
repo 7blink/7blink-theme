@@ -4,7 +4,7 @@ title:  "Jekyll - Youtube Embeds"
 date:   2015-10-25 17:31:00
 categories: HTML Javascript
 permalink: Jekyll_youtube
-published: true
+published: false
 yt: Oi06q54UJ7k
 tags:
 - jekyll

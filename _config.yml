@@ -1,6 +1,6 @@
 # Site settings
 title: 7 Blink
-motto: Creating Possibilities
+motto: efficient
 email: #
 description: > # this means to ignore newlines until "baseurl:"
   A simple blog for my current programming projects.  Python, Django, Java, Javascript
@@ -34,7 +34,7 @@ navbar:
   categories: true
   store: false
   tags: true
-  about: true
+  about: false
 
 rename_navbar:
   home: home
